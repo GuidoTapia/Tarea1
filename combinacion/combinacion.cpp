@@ -28,7 +28,7 @@ int main()
     char elementos[a];
     for(int i=0 ; i<a;i++){
         elementos[i]=97+i;
-        cout << elementos[i]<<endl;
+        //cout << elementos[i]<<endl;
     }
     cout << "la cantidad de combinaciones posibles es:\n" <<factorial(a)/(factorial(b)*factorial(a-b))<< endl;
     cout << "las posibles combinaciones son:\n";
